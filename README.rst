@@ -45,9 +45,9 @@ To install ckanext-ezid:
    ``/etc/ckan/default/production.ini``).
 
 4. Set your EZID username, password and namespace with the keys
-    ckan.ezid.username,
-    ckan.ezid.password,
-    ckan.ezid.namespace
+    ckanext.ezid.username,
+    ckanext.ezid.password,
+    ckanext.ezid.namespace
    in your CKAN config file
 
 5. Restart CKAN. For example if you've deployed CKAN with Apache on Ubuntu::
