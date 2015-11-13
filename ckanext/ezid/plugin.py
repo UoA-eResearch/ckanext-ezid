@@ -27,8 +27,7 @@ class EZIDPlugin(plugins.SingletonPlugin):
         log.info('minting %s' % ckan_url)
 
         try:
-            org = organization_show(context, {'id':metadata['owner_org']})
-            org = org['title']
+            org = organization_show(context, {'id':metadata['owner_org']})['title']
         except:
             org = metadata['owner_org']
 
